@@ -1,0 +1,233 @@
+body {
+    font-size: .875rem;
+    color: #303133;
+    background-color:#e2e2e2;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+/*******************************************/
+/* LAYOUT STYLES
+/*******************************************/
+
+/****** Navbar ******/
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+}
+
+.navbar-dark {
+    background-color:#B23121;
+}
+
+/****** Sidebar ******/
+
+  
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+  
+/****** Main Content ******/
+
+.main-content {
+    padding-top: 48px;
+}
+
+@media (max-width: 767px) {
+    .main-content {
+        padding-top: 72px; /* Space for fixed navbar */
+    }
+}
+
+/*******************************************/
+/* SIDEBAR
+/*******************************************/
+
+.btn-compose-container {
+    display:flex;
+    flex-direction: column;
+    padding:1.5em 2em;
+}
+
+.btn-compose {
+    background-color:#5499C7;
+    color:#ffffff;
+}
+
+.btn-compose:hover {
+    background-color:#4c8ab3;
+    color:#ffffff;
+}
+
+.nav-link {
+    padding:0.25em 2em;
+    margin:0.25em 2em 0.25em 0em;
+    color:#888888;
+}
+
+.nav-link:hover {
+    background-color:#d6d6d6;
+    color:#888888;
+}
+
+/*******************************************/
+/* EMAIL TABLE
+/*******************************************/
+
+.table-list {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+
+table.table-list tbody tr {
+    background-color:#f1f1f1;
+}
+
+table.table-list tbody tr td {
+    border-top:0px;
+}
+
+table.table-list tbody tr:hover {
+    background-color:#ffffff;
+    cursor:pointer;
+}
+
+table.table-list tbody tr td.table-select {
+    width:45px;
+    text-align:center;
+}
+
+table.table-list tbody tr td.table-select:hover {
+    background-color:#D6EAF8;
+    cursor:pointer;
+}
+
+.table-date {
+    text-align:right;
+    width:20%;
+}
+
+.table-angle-icon {
+    display: none;
+    padding-left:1em;
+    color:#3498DB;
+}
+
+.table-list > tbody > tr:hover > td > .table-angle-icon {
+    display:inline !important;
+}
+
+.table-tag-label {
+    padding:0.25em;
+    margin:0em 0.5em;
+    font-size:0.75em;
+}
+
+.table-subject {
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 767px) {	
+	.table-responsive-stack tr { 
+        border-bottom: 0.25em solid #e2e2e2; 
+    }
+ 
+	.table-responsive-stack td { 
+		border: 0px;
+		position: relative;
+		white-space: normal;
+		text-align:left;
+	}
+ 
+    .table-sender {
+        display:inline-block !important;
+    }
+    
+    .table-subject {
+        display:block !important;
+        max-width:100%;
+    }
+
+    .table-tags{
+        display:block !important;
+    }
+
+    .table-date{
+        display:block;
+        width:100%;
+    }
+}
+
+/*******************************************/
+/* EMAIL VIEW
+/*******************************************/
+
+table.table-email-view {
+    margin-bottom:0.5em;
+}
+
+table.table-email-view tbody tr {
+    background-color:#f1f1f1;
+}
+
+table.table-email-view tbody tr td.back {
+    width:45px;
+    text-align:center;
+}
+
+table.table-email-view tbody tr td.back:hover {
+    background-color:#d6d6d6;
+    cursor:pointer;
+}
+
+.container-email-view{
+    width:100%;
+    padding:2em;
+    background-color:#f1f1f1;
+}
+
+/*******************************************/
+/* ACTION TOOLBAR
+/*******************************************/
+
+.action-toolbar {
+    margin: 1.75em 0em;
+    background-color: #e2e2e2;
+}
+
+@media only screen and (max-width: 767px) {
+    .action-toolbar{
+        margin-top:0em;
+        margin-bottom:0.5em;
+    }
+    .action-toolbar .btn{
+        margin-bottom: 0.5em;
+    }
+}
