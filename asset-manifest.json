@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gmail-redesigned/static/css/main.dedd9dfa.chunk.css",
+    "main.js": "/gmail-redesigned/static/js/main.bdb3db5f.chunk.js",
+    "main.js.map": "/gmail-redesigned/static/js/main.bdb3db5f.chunk.js.map",
+    "runtime-main.js": "/gmail-redesigned/static/js/runtime-main.2266fde8.js",
+    "runtime-main.js.map": "/gmail-redesigned/static/js/runtime-main.2266fde8.js.map",
+    "static/js/2.c556cb45.chunk.js": "/gmail-redesigned/static/js/2.c556cb45.chunk.js",
+    "static/js/2.c556cb45.chunk.js.map": "/gmail-redesigned/static/js/2.c556cb45.chunk.js.map",
+    "index.html": "/gmail-redesigned/index.html",
+    "precache-manifest.86698640ab47ef1c63d89e39f7b7b700.js": "/gmail-redesigned/precache-manifest.86698640ab47ef1c63d89e39f7b7b700.js",
+    "service-worker.js": "/gmail-redesigned/service-worker.js",
+    "static/css/main.dedd9dfa.chunk.css.map": "/gmail-redesigned/static/css/main.dedd9dfa.chunk.css.map",
+    "static/js/2.c556cb45.chunk.js.LICENSE.txt": "/gmail-redesigned/static/js/2.c556cb45.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2266fde8.js",
+    "static/js/2.c556cb45.chunk.js",
+    "static/css/main.dedd9dfa.chunk.css",
+    "static/js/main.bdb3db5f.chunk.js"
+  ]
+}
